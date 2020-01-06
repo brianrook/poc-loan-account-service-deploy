@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: 149744648448.dkr.ecr.us-east-2.amazonaws.com/test/helloworld
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  port: 18000
+  externalPort: 18000
