@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: 149744648448.dkr.ecr.us-east-2.amazonaws.com/test/helloworld
+  repository: 149744648448.dkr.ecr.us-east-2.amazonaws.com/poc-mambu/poc-loan-account-service
   tag: latest
   pullPolicy: IfNotPresent
 
